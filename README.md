@@ -1,8 +1,7 @@
 # RD-INFRO_INTERNSHIP
 These were the tasks that were assigned by RD INFRO TECHNOLOGY , During their CPP INTERNSHIP.
 
-
-First Task was -
+1] First Task was -
 
 Create a program that generates a random number and asks the
 user to guess it. Provide feedback on whether the guess is too
@@ -11,7 +10,7 @@ high or too low until the user guesses the correct number.
 The Program is Labled as - NGGame.cpp
 
 
-Second Task was -
+2] Second Task was -
 
 Create a program that generates a random number and asks the
 user to guess it. Provide feedback on whether the guess is too
@@ -19,7 +18,7 @@ high or too low until the user guesses the correct number.
 
 The Program is Labled as - Calculator.cpp
 
-Third Task was -
+3] Third Task was -
 
 Build a simple console-based Tic-Tac-Toe game that
 allows two players to play against each other
@@ -37,7 +36,7 @@ Play Again: Ask if the players want to play another game.
 
 The Program is Labled as - XO.cpp
 
-Fourth Task was -
+4] Fourth Task was -
 
 Build a simple console-based to-do list
 manager that allows users to add, view, and
