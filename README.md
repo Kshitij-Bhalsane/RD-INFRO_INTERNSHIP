@@ -8,6 +8,7 @@ user to guess it. Provide feedback on whether the guess is too
 high or too low until the user guesses the correct number.
 
 The Program is Labled as - NGGame.cpp
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2] Second Task was -
@@ -17,6 +18,7 @@ user to guess it. Provide feedback on whether the guess is too
 high or too low until the user guesses the correct number.
 
 The Program is Labled as - Calculator.cpp
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3] Third Task was -
 
@@ -35,6 +37,7 @@ DisplayResult: Show the result of the game (win, draw, or ongoing).
 Play Again: Ask if the players want to play another game.
 
 The Program is Labled as - XO.cpp
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4] Fourth Task was -
 
@@ -50,6 +53,7 @@ Mark Taskas Completed: Allow users to mark tasks as completed.
 Remove Task: Provide an option to remove tasks from the list.
 
 The Program is Labled as - ToDoList.cpp
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 I also opted for  the Python Internship , Following are the tasks that were Completed.
 These were the tasks that were assigned by RD INFRO TECHNOLOGY , During their Python INTERNSHIP.
