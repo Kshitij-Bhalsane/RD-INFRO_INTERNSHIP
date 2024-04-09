@@ -48,3 +48,8 @@ ViewTasks:Display the list of tasks with their status (completed or
 pending).
 Mark Taskas Completed: Allow users to mark tasks as completed.
 Remove Task: Provide an option to remove tasks from the list.
+
+
+I also opted for  the Python Internship , Following are the tasks that were Completed.
+
+These were the tasks that were assigned by RD INFRO TECHNOLOGY , During their Python INTERNSHIP.
