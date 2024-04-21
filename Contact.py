@@ -1,4 +1,4 @@
-class Node:
+class Node: 
 	address = ' '
 	name= ' '
 	phoneno = 999999
@@ -34,7 +34,7 @@ class Contact:
 
 		self.setContact()
 
-		self.contact[index] = self.contact[-1]
+		self.contact[index-1] = self.contact[-1]
 		self.contact.pop(-1)
 		print(f"\n Contact at {index} Updated.")
 
@@ -43,33 +43,29 @@ class Contact:
 			print( i+1 , self.contact[i])
 
 		index = int(input("Enter the index of contact to be deleted :"))
-		self.contact.pop(index)
-		print(f"\n Contact at {index} Deleted.")
+		self.contact.pop(index-1)
+		print(f"\n Contact at {index-1} Deleted.")
 
 	def Display(self):
 
 		for i in range(len(self.contact)):
 			print( i+1 , self.contact[i])
 
-	def searchContact(self):
+	def searchContact(self ):
 		para = input("\nEnter The name of contact to be searched : ")
-		for i in self.contact:
-			if i.name == para:
+		for i in range(len(self.contact)):
+			if self.contact[i].name == para:
 				print("Found")
-				break
+				return
 		print("Not Found")
-		
-
-
-
 
 def main():
 
 	C = Contact();
 
 	ch = 0
-	while(ch != 5):
-		ch = int(input("\n\t\t\t MENU\n\t\tChoose the operation to be performed : \n\t\t1] Add Contact \n\t\t2] Display Contacts \n\t\t3] Update Contact\n\t\t4] Search Contact\n\t\t5]Delete Contact \n\t\t Enter Your choice : "))
+	while(ch != 6):
+		ch = int(input("\n\t\t\t MENU\n\t\tChoose the operation to be performed : \n\t\t1] Add Contact \n\t\t2] Display Contacts \n\t\t3] Update Contact\n\t\t4] Search Contact\n\t\t5]Delete Contact \n\t\t6] Exit \n\t\tEnter Your choice : "))
 
 		match ch:
 			case 1:
@@ -82,6 +78,9 @@ def main():
 				C.searchContact()
 			case 5:
 				C.deleteContact()
+			case 6:
+				break;
+
 
 main()
 
